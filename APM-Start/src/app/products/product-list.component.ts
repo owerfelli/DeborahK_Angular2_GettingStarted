@@ -90,4 +90,8 @@ export class ProductListComponent implements OnInit {
     ngOnInit(): void {
         console.log("Haha")
     }
+
+    onRatingClicked(message:string):void{
+        console.log(message)
+    }
 }
