@@ -1,5 +1,9 @@
 <div class="panel panel-primary" *ngIf='product'>
-  <div>
+  <div class="panel-heading">
     {{pageTitle +' : '+ product?.productName }}
+  </div>
+
+  <div>
+    <a class="btn btn-default" (click)='onBack()' style="width:80px">Back </a>
   </div>
 </div>
